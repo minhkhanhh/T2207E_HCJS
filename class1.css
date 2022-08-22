@@ -1,0 +1,29 @@
+div{
+    width: calc(25% - 10px - 10px);/*chia div chiều dọc*/
+    float: left;/*chia div chiều ngang*/
+    border: 1px solid #000000;/*độ dày viền và màu*/
+    margin: 10px ;/*khoảng cách bên viền ngoài*/
+    padding: 7px;/*khoảng cách bên viền trong*/
+    box-sizing: border-box ;
+
+    /*lệnh làm đep*/
+    border-radius: 20px ;/*làm viền cong*/
+    box-shadow:0px 0px 5px pink ;/*bóng của khung*/
+    /*độ dày , đổ bóng dưới viền ,độ mờ ,màu*/
+    transition: 4s all; /*độ trễ*/
+}
+
+div:hover/*di chuột vào có hiệu ứng*/{
+    transform: translate(20px, 20px);/*nhảy vị trí khác*/
+    /*transform: rotate(45deg);*/ /*xoay nội dung*/
+}
+img{
+    max-width: 100% ;
+
+}
+.c1{
+    background-color: pink;
+}
+.btt{
+    border-radius: 40px ;
+}

@@ -5,19 +5,19 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.6;
-    //ví dụ về backgruond
-    //background-color: bisque;
-    //background-image: url(".idea/ảnhcss/CHUOI-MEDIA-2538.JPG");
-    //background-size: cover;
+    /*ví dụ về backgruond*/
+    /*background-color: bisque;*/
+    /*background-image: url(".idea/ảnhcss/CHUOI-MEDIA-2538.JPG");*/
+    /*background-size: cover;*/
 }
 p{
-    font-size: 15px; //cỡ chữ
-    margin: 15px 0px; //khoảng cách <p> trên và <p> đang chỉnh
+    font-size: 15px; /*cỡ chữ*/
+    margin: 15px 0px; /*khoảng cách <p> trên và <p> đang chỉnh*/
 
 }
 .c3{
-    margin: 5px 0px 0px; //khoảng cách <p> trên và <p> đang chỉnh
-    padding: 0px 0px 5px; //khoảng cách <p> dưới và <p> đang chỉnh
+    margin: 5px 0px 0px; /*khoảng cách <p> trên và <p> đang chỉnh*/
+    padding: 0px 0px 5px; /*khoảng cách <p> dưới và <p> đang chỉnh*/
     font-size: 13px;
     color: #999;
 }
@@ -28,7 +28,7 @@ h1{
 h3{
     font-weight: 700;
     font-size: 15px;
-    line-height: 1.6; //khoảng cách giữa các dòng trong <p> đang chỉnh
+    line-height: 1.6; /*khoảng cách giữa các dòng trong <p> đang chỉnh*/
     margin: 10px 0px;
 }
 #q1{
@@ -55,4 +55,7 @@ img {
     font-size: 17px;
     padding-top: 5px;
     text-align: right;
+}
+#q5{
+    text-align: center;
 }
