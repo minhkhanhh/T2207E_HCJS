@@ -1,0 +1,19 @@
+
+#contactfrom{
+    padding: 20px;
+    line-height: 2;
+    background-color: #00c37f;
+    color: white;
+    font-size: 30px;
+    font-family: Arial, sans-serif;
+}
+.tong{
+    border: 1px solid #00c27f;
+    height: 600px;
+    width: 400px;
+    border-radius: 1px;
+}
+.noidung{
+    padding: 20px;
+    line-height: 25px;
+}
