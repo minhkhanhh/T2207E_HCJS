@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 14px;
+    color: #333333;
+    font-weight: 400;
+    line-height: 1.35;
+    background-color: #fafafa;
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+.section{
+    float: left;
+    width: 100%;
+}
+.container{
+    float: none;
+    width: 1200px;
+    margin: 0 auto;/*rơi ra giữa màn hình*/
+
+}
+li{
+    list-style: none;
+}
+.toppage{
+   background-color: #fdfdfe;
+   border-bottom: 1px solid #cccccc;
+   padding: 20px 0;
+}
+.toppage li{
+    float: left;
+}
+.toppageleft{
+    float: left;
+}
+.toppageright{
+    float: right;
+}
+.toppageleft li{
+    float: left;
+}
+.toppageright li{
+    float: right;
+    margin-right: 20px;
+    color: #958f9a;
+}
+.toppageleft li a {
+    color: #bcb6b5;
+    margin-right: 20px;
+}
+.toppageleft li a i{
+    margin-right: 10px;
+}
+.toppageright li a{
+
+    margin-right: 20px;
+    color: #958f9a;
+}
+.toppageright li i{
+    color: #f16e3e;
+    margin-right: 10px;
+}
+.header{
+    background-color: #fdfdfe;
+    padding: 20px 0;
+}
+.logo{
+    float: left;
+}
+.topcart{
+    float: right;
+    margin-left: 30px ;
+}
+.menu{
+    float: right;
+}
+.menu li{
+    float: left;
+}
+.menu li a{
+    margin-right: 30px ;
+    float: left;
+    font-size: 16px;
+    color: #70706f;
+    line-height: 54px;
+}
+.topcart a{
+    margin-right: 20px;
+    color: #22222285;
+    font-size: 16px;
+    line-height: 54px;
+}
+.logo a{
+    font-size: 40px;
+    color: #fd6e36;
+    font-weight: 500;
+    text-shadow: -5px 3px 3px #fdaa8a;
+}
+.noidungtrai{
+    width: 650px;
+    float: left;
+    margin: 50px;
+}
+.noidungchinh{
+    background-color: #fdfdfe;
+    width: 300px;
+    float: left;
+    border: 1px solid #474793;
+    margin: 10px;
+    border-radius: 2px 2px 2px 2px;
+    box-sizing: border-box ;
+
+}
+.noidungchinh img{
+    width: 300px;
+
+}
+.noidungchinh h1{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: #f17649;
+    padding: 12px;
+}
+.noidungchinh p{
+    padding: 12px;
+    color: #878787;
+    font-size: 12px;
+}
+.lich{
+    float: left;
+    padding-left: 12px;
+    color: #878787;
+    font-size: 12px;
+}
+.comment{
+    float: right;
+    padding-right: 12px;
+    color: #878787;
+    font-size: 12px;
+}
+.noidungphai{
+    width: 330px;
+    float: right;
+    margin: 59px;
+}
+.noidungphai img{
+    border-radius: 2px;
+}
+.navigation{
+    background-color: rgba(232, 232, 232, 0.84);
+}
