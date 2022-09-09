@@ -157,3 +157,6 @@ li{
 .navigation{
     background-color: rgba(232, 232, 232, 0.84);
 }
+.noidungchinh a i{
+    margin: 5px;
+}
